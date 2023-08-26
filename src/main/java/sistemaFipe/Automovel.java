@@ -1,8 +1,8 @@
 package sistemaFipe;
 public class Automovel {
 
-    public Tipo tipo;
-    public double fipe;
+    private Tipo tipo;
+    private double fipe;
 
     public Automovel(double fipe, Tipo tipo){
         this.fipe = fipe;

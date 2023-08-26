@@ -2,13 +2,18 @@ package sistemaFipe;
 
 public class Estabelecimento {
 
-    public Portao portao;
+    private Boolean temPortaoAutomatico;
 
-    public Estabelecimento(Portao portao){
-        this.portao = portao;
+    public Estabelecimento(Boolean temPortaoAutomatico) {
+        this.temPortaoAutomatico = temPortaoAutomatico;
     }
 
-    public Portao getPortao(){
-     return portao;
+    public Double valorDesconto(Double valorSeguro) {
+        if (temPortaoAutomatico) {
+            return valorSeguro * 0.045;
+        }
+
+        return valorSeguro * 0.02;
     }
+
 }
