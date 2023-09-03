@@ -3,6 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+<<<<<<< HEAD
     <parent>
         <groupId>org.example</groupId>
         <artifactId>JavaNelio</artifactId>
@@ -10,11 +11,29 @@
     </parent>
 
     <artifactId>BasicExercicis</artifactId>
+=======
+
+    <groupId>org.example</groupId>
+    <artifactId>Automoveis</artifactId>
+    <version>1.0-SNAPSHOT</version>
+>>>>>>> a1cadd2b1c5752f052540cdf948c891d286d7bca
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+<<<<<<< HEAD
 
+=======
+    <dependencies>
+        <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter-api</artifactId>
+                <version>5.9.2</version>
+                <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+>>>>>>> a1cadd2b1c5752f052540cdf948c891d286d7bca
 </project>
